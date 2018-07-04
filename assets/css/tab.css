@@ -1,0 +1,135 @@
+/*PROFILE PAGE*/
+
+h4#demo.demoprofile{
+    font-size: 43px;
+}
+
+
+/* Style the tab */
+div.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 20%;
+   /* height: 900px;*/
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    display: block;
+   background-color: #467fcf;
+    color: #fff;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #fff;
+    color: #95989A;
+}
+
+/* Create an active/current "tab button" class */
+div.tab button.active {
+    background-color: #fff;
+    color: #95989A;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 75%;
+    /*border-left: none;*/
+    min-height: 550px;
+    background: #fff;
+    margin-left: 36px;
+
+}
+
+/*PROFILE PAGE*/
+
+@media only screen and (max-width: 320px) {
+
+    div.tab {
+    
+    width: 25%;
+   /* height: 900px;*/
+}
+.tabcontent {
+     margin-left: 0px;
+    width: 75%;
+    /*border-left: none;*/
+    
+
+}
+
+    div.tab>button.tablinks{
+        font-size: 10px;
+    }
+    div.tab>button.tablinks.cart{
+        font-size: 9px;
+    }
+    .tabcontent>h1{
+        font-size: 1.5rem;
+    }
+   
+    input.loginz{
+      width: 111px !important;
+  }
+  select.loginz {
+    width: 167px !important;
+  }
+  .circleprofile{
+    margin-top: -373px;
+    position: absolute;
+    left: 151px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 500px) {
+    div.tab {
+    
+    width: 25%;
+   /* height: 900px;*/
+}
+.tabcontent {
+     margin-left: 0px;
+    width: 75%;
+    /*border-left: none;*/
+    
+
+}
+     div.tab>button.tablinks{
+        font-size: 10px;
+    }
+    div.tab>button.tablinks.cart{
+        font-size: 9px;
+    }
+    .tabcontent>h1{
+        font-size: 1.5rem;
+    }
+    img.image{
+      height: 80px;
+      width: 80px;
+    }
+    input.loginz{
+      width: 141px !important;
+  }
+  select.loginz {
+    width: 196px !important;
+  }
+  .circleprofile{
+   margin-top: -331px;
+    left: 191px;
+
+    }
+    }
